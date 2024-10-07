@@ -36,7 +36,7 @@ function Home() {
                 </div>
                 <div className='w-368 mx-auto mt-3 max-[1150px]:w-[140px]'>
                 <Button colorScheme="blue" size="lg"   leftIcon={<img src={downloadW} alt="Download" style={{ width: '30px', height: '30px' }} />}>
-                     <a href='https://drive.google.com/file/d/16jB4-AOtpX7iowDdaibLrYA6UM98ISqt/view?usp=sharing' target="_blank">
+                     <a href='https://drive.google.com/file/d/1nGW8LV2_p3odlp0AaARLFlcAyOPLPW9A/view?usp=sharing' target="_blank">
                      Get CV 
 
                      </a>
