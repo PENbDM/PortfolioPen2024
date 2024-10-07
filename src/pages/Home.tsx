@@ -68,7 +68,7 @@ function Home() {
         <li className='flex flex-row items-center justify-between p-3'>
             <p className='text-[#576076] w-[30%]  max-[1150px]:w-[50%]'>2023–2024</p>
             <div className='flex items-center w-[70%] max-[1150px]:w-[50%]'>
-                <div className='w-9 h-9 bg-[#F0F2F5] rounded-md flex items-center justify-center max-[890px]:w-[55px]  max-[890px]:ml-[5px]  '>
+                <div className='w-9 h-9 bg-[#F0F2F5] rounded-md flex items-center justify-center   '>
                     <img  src={softecoo} width={20} height={20} />
                 </div>
                 <div className='flex flex-col ml-3 max-[890px]:ml-[12px] max-[530px]:ml-[15px]'>
