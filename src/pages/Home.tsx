@@ -5,6 +5,7 @@ import penGoodPhoto from '../img/penGoodPhoto.png'
 import downloadW from '../img/downloadW.png'
 import github from '../img/github.png'
 import linkedinn from '../img/linkedinn.png'
+import { useEffect } from 'react';
 import formatLogo from '../img/formatLogo.png'
 import northLogo from '../img/northLogo.png'
 import focchi from '../img/focchi.png'
@@ -21,7 +22,28 @@ import { Link } from "react-router-dom";
 import softecoo from '../img/softecoo.png'
 function Home() {
   const { theme } = useContext(ThemeContext); // Access the current theme from context
+  useEffect(() => {
+    // Adding Google Analytics script
+    const script1 = document.createElement('script');
+    script1.src = 'https://www.googletagmanager.com/gtag/js?id=G-TR3H7WYEMN';
+    script1.async = true;
+    document.head.appendChild(script1);
 
+    const script2 = document.createElement('script');
+    script2.innerHTML = `
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-TR3H7WYEMN');
+    `;
+    document.head.appendChild(script2);
+
+    // Clean up the scripts when component unmounts
+    return () => {
+      document.head.removeChild(script1);
+      document.head.removeChild(script2);
+    };
+  }, []);
     return (
 <div className='w-[1300px] h-650 mx-auto mt-5 rounded-xl max-[1350px]:w-[1100px] max-[1150px]:w-[1000px] max-[1040px]:w-[850px] max-[890px]:w-[600px] max-[630px]:w-[500px] max-[530px]:w-[400px]  max-[420px]:flex-col max-[420px]:items-center max-[420px]:justify-center'>
 <div className='w-full h-full flex justify-between gap-4 1350:gap-6 1350:w-full max-[1150px]:flex-col   '>
