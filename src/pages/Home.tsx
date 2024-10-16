@@ -54,11 +54,11 @@ function Home() {
                 <div className='w-300 mx-auto 1350:w-[368px] max-[1150px]:w-[600px] max-[890px]:w-[450px] max-[530px]:w-[300px] max-[420px]:w-[250px]  '>
                     <p className='text-2xl mt-3 font-medium '>Dmytro Pen</p>
                     <p className='mx-auto text-lg mt-2'>
-                    Greetings!👋  I am a <span className='font-semibold'>Frontend developer</span> with 2 years of commercial team experience, specializing in <span className='font-semibold'>React, Typescript.</span>💻  I've worked on both small projects and complex systems, often requiring deep dives into development. 🚀</p>
+                    Greetings!👋  I am a <span className='font-semibold'>Frontend developer</span> with nearly 3 years of commercial team experience, specializing in <span className='font-semibold'>React and Typescript.</span>💻  I've worked on both small projects and complex systems, often requiring deep dives into development. 🚀</p>
                 </div>
                 <div className='w-368 mx-auto mt-3 max-[1150px]:w-[140px]'>
                 <Button colorScheme="blue" size="lg"   leftIcon={<img src={downloadW} alt="Download" style={{ width: '30px', height: '30px' }} />}>
-                     <a href='https://drive.google.com/file/d/1YjSgbrkTi-MxiN6mlJ4_QXyYczQTyQ1Z/view?usp=sharing' target="_blank">
+                     <a href='https://drive.google.com/file/d/1VT8o_f_LujJkDiXdM0Mls12qE6ADcafo/view?usp=sharing' target="_blank">
                      Get CV 
 
                      </a>
